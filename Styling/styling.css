@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: orange;
+}
+.inputBox{
+    background-color:black; 
+}
+.orange{
+    color: orange;
+}
+.register-form-heading{
+    color:orange;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 50%;
+    margin:auto;
+    margin-top: 10px;
+}
+.logo-form{
+    height: 75px;
+    text-align: center;
+}
