@@ -1,0 +1,578 @@
+nav {
+    background-color:crimson;
+}
+
+
+html{
+    width:100%;
+    height:100%;
+}
+
+main{
+    width:100%;
+    height:100%;
+}
+
+  
+.textSize-profile{
+    font-size: large;
+}
+.blackbg {
+    background-color: black;
+}
+.crimsonbg {
+    background-color: crimson;
+}
+
+.crimsontext{
+    color:crimson;
+}
+
+.antiquewhitetext{
+color: antiquewhite;
+}
+
+.profile-text{
+    font-size: large;
+}
+
+.italicText{
+        font-style: italic;
+}
+
+.form-color{
+    background-color: white;
+}
+
+.blackText{
+    color:black;
+}
+.whiteText{
+    color:white;
+}
+
+.form-rows{
+    padding-bottom: 5%;
+}
+.first-row{
+    padding-top: 0%;
+}
+.last-row{
+    padding-bottom: 5%;
+}
+
+.sumbit-btn-style{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.btn-ticket{
+    margin-bottom: 1%;
+    width:34%;
+}
+
+
+.register-form-heading{
+    color:crimson;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.about-account{
+    color:black;
+    opacity: 80%;
+    text-align: center;
+}
+
+.label-mobile{
+    color:black;
+    opacity: 100%;
+
+}
+
+.input-size{
+    height: 60px;
+    background-color: gainsboro;
+}
+
+.logo-form{
+    height: 75px;
+    text-align: center;
+}
+
+.btn-danger-submit{
+    width:100%;
+    height: 150%;
+}
+
+.btn-nav{
+font-size:1.25rem;
+}
+
+.form-background{
+    background-color:white;
+}
+
+
+
+.slogan{
+    text-align:center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+}
+
+
+.registration-form{
+    padding-bottom:20%;
+    padding-top:0%;
+}
+
+.login-form{
+    padding-bottom: 100%;
+    padding-top: 10%;
+}
+
+.toggler-menu{
+    font-size: 1.75rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:black;
+    border-color: black;
+    border-width: 1.75px;
+}
+div.kutiqRed{
+     border: 1px solid crimson;
+    padding: 25px;
+}
+
+footer{
+    background-color:gainsboro;
+    padding:0;
+}
+
+.vertical-center{
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+hr{
+    background-color:black;
+    opacity: 100%;
+}
+
+ul label{
+    font-weight: bolder;
+    font-size: smaller;
+}
+
+.navbar-text{
+    font-size: 1.75rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    align-items:center;
+}
+
+.footer-img-col{
+    text-align: center;
+}
+
+.footer-img{
+    height: 100px;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+footer{
+    margin-top: auto;
+}
+
+.aboutus-mobile-paragraph{
+    margin-top: 2%;
+}
+
+.aboutus-title{
+    padding-top: 0.5%;
+}
+
+.contacts-heading{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-top: 2.5%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-instagram{
+    background-color: #ff0368;
+    color:white;
+}
+
+.fa-brands {
+    padding-top:1.5%;
+    padding-bottom:1.5%;
+    font-size:150%;
+    width: 9%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+  }
+
+  .events-container{
+    margin-top:2%;
+    margin-bottom: 2%;
+    width: 75%;
+    border: 2px crimson solid;
+    position:relative;
+  }
+
+  .ticket-container{
+    width: 100%;
+    border-left: 2px black solid;
+    border-top: 2px black solid;
+    border-right: 2px black solid;
+    position:relative;
+  }
+  .ticket-l-container{
+    width: 100%;
+    border: 2px black solid;
+    position:relative;
+    margin-bottom: 1%;
+  }
+  
+  .fighter-2-align{
+    text-align: end;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+  }
+  .events-header{
+    text-align: center;
+    font-family:Impact;
+    color:black;
+    margin-top: 3%;
+    margin-bottom: 10%;
+  }
+  .event-buttons{
+    padding-top:2%;
+    padding-bottom:2%
+  }
+  .event-header{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    position: relative;
+    opacity: 100%;
+    bottom:15px;
+    font-size: 100%;
+    color:black;
+  }
+  .event-usf-picture{
+    height: 5rem;
+    padding-top: 2%;
+    opacity: 100%;
+}
+.fighter-names{
+    text-decoration: none;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.event-background-mobile{
+    position: relative;
+}
+
+.events-fighter-picture{
+    position: relative;
+    height: 10rem;
+    text-align: center;
+  }
+
+  .row-border{
+    border-bottom: 2px crimson solid;
+  }
+
+ 
+  .fight-info-text{
+    color:crimson;
+    font-weight: bold;
+  }
+
+  .fight-info-numbers{
+    font-weight: bold;
+  }
+
+  .no-margin-padding{
+    margin:0;
+    padding:0;
+  }
+
+  
+  .event-name-ticket{
+    font-size: 250%;
+  }
+
+  .ticket-type-col{
+    text-align: end;
+    padding: 0%;
+    margin:0%;
+  }
+  .ticket-type-text{
+    color:crimson;
+    font-size: 3rem;
+    padding: 0px;
+    margin: 0px;
+  }
+  .ticket-type-text-2{
+    color:black;
+    font-size: 3rem;
+    padding:0px;
+    margin:0px; 
+  }
+
+  .ticket-information{
+    margin-top:2%;
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  .tickets-names{
+    font-size: 2rem;
+    padding-top:0.5%;
+  }
+
+  .tickets-email{
+    font-size: 0.9rem;
+    position: relative;
+    opacity: 0.3;
+    bottom:0.65rem;
+  }
+
+  .home-background{
+    background-image: url("images/home-page-bg.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        left:0;
+  }
+  .home-header{
+    color:white;
+  }
+  .home-logo{
+    height: 3.5rem;
+    margin-bottom:20rem;
+  }
+  .home-logo-align{
+    text-align: center;
+  }
+  .btn-home{
+    width: 9rem;
+  }
+
+@media screen and (min-width: 768px) {
+    .navbar-text{
+        font-size: 1.25rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight:bold;
+        align-items:center;
+    }
+    body{
+        min-height: 200vh;
+    }
+    
+    .btn-nav{
+        font-size:1rem;
+    }
+
+    .btn-danger-submit{
+        width:auto;
+        height: auto;
+    }
+
+    .footer-img{
+        height: auto;
+    }
+    
+    .form-background{
+        background-image: url("images/background.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        left:0;
+    }
+    .registration-form{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom:10%;
+        padding-top:10%
+    }
+    .login-form{
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom:10%;
+        padding-top:10%
+    }
+
+    .border-container-form{
+        border-width: 1.25px;
+        border-color: white;
+        border-radius: 25px;
+    }
+
+    .register-form-heading{
+        background-color: crimson;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        color:white
+    }
+
+    .form-rows{
+        padding-bottom: 3%;
+    }
+    .first-row{
+        padding-top: 2%;
+    }
+    .last-row{
+        padding-bottom: 2%;
+    }
+
+    .form-color{
+        background-color: gainsboro;
+    }
+
+    .fa-brands {
+        padding-top:1%;
+        padding-bottom:1%;
+        font-size:150%;
+        width: 6%;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 25%;
+      }
+
+      .events-fighter-picture{
+        height: 15rem;
+        padding-top:2%;
+      }
+
+      .events-header{
+        margin-top: 2%;
+        margin-bottom: 0%;
+        font-weight: normal;
+        color:black;
+    }
+    .fight-info-container{
+        margin-bottom: 2%;
+        margin-top: 2%;
+        width: 100%;
+        background-color: white;
+      }   
+      .home-logo-align{
+        text-align: start;
+      }
+      .home-header{
+        margin-bottom:30rem;
+      }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-text{
+        font-size: 1rem;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+    }
+
+    .fa-brands {
+        padding-top:0.5%;
+        padding-bottom:0.5%;
+        font-size:150%;
+        width: 3%;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 25%;
+      }
+    .footer-img-col{
+        text-align: start;
+    }
+    ul{
+        text-align: end;
+    }
+
+    body{
+        min-height: 100vh;
+    }
+
+    .registration-form{
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-bottom:10%;
+        padding-top:0%
+    }
+    .login-form{
+        padding-left: 35%;
+        padding-right: 35%;
+        padding-bottom:10%;
+        padding-top:2%
+    }
+    img.hgh{
+        height: 300px;
+    }
+
+    .events-container{
+        border: 3px crimson solid;
+        margin-bottom: 2%;
+        width: 55%;
+        background-color: white;
+      }
+      .events-fighter-picture{
+        height: 270px;
+        padding-top: 2%;
+      }
+      
+      .event-buttons{
+        padding-top:19%;
+      }
+    
+    .fighter-names{
+        font-size: 20px;
+        color:crimson;
+    }
+
+    .event-usf-picture{
+        height: 6.8rem;
+    }
+
+    .fight-info-container{
+        margin-bottom: 2%;
+        margin-top: 2%;
+        width: 60%;
+        background-color: white;
+      }
+
+      .tickets-container{
+        margin-bottom: 1%;
+        width: 65%;
+        outline: 2px black solid;
+        margin-top: 1px;
+        position:relative;
+      }
+      .event-name-ticket{
+        font-size: 350%;
+      }
+}

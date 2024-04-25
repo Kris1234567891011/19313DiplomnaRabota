@@ -1,0 +1,25 @@
+.container {
+    margin-top: 20px;
+}
+.review-card {
+    background-color: #000; /* Black background */
+    color: #ffa500; /* Orange text */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 165, 0, 0.5); /* Orange shadow for pop */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.stars {
+    display: inline-block;
+    color: #ffa500; /* Orange stars */
+    font-size: 16px;
+}
+.stars::before {
+    content: "\2605\2605\2605\2605\2605";
+    letter-spacing: 3px;
+}
+.stars[data-rating="1"]::before { content: "\2605\2606\2606\2606\2606"; }
+.stars[data-rating="2"]::before { content: "\2605\2605\2606\2606\2606"; }
+.stars[data-rating="3"]::before { content: "\2605\2605\2605\2606\2606"; }
+.stars[data-rating="4"]::before { content: "\2605\2605\2605\2605\2606"; }
+.stars[data-rating="5"]::before { content: "\2605\2605\2605\2605\2605"; }

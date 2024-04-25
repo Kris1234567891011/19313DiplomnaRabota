@@ -72,7 +72,6 @@ if ( isset( $_POST['submit'] ) ) {
 	$lName = htmlspecialchars( $lName, ENT_QUOTES );
 	$email = htmlspecialchars( $email, ENT_QUOTES );
 	$password=htmlspecialchars($password, ENT_QUOTES);
-    $passwordC=htmlspecialchars($passwordC, ENT_QUOTES);
 }
 
 ?>
@@ -89,7 +88,7 @@ if ( isset( $_POST['submit'] ) ) {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="../Styling/styling.css">
         <link rel="stylesheet" type="text/css" href="../Styling/header.css">
-        <link rel="stylesheet" type="text/css" href="../Styling/register.css">
+        <link rel="stylesheet" type="text/css" href="../Styling/form.css">
 </head>
   <body>
     <header>
@@ -107,19 +106,19 @@ if ( isset( $_POST['submit'] ) ) {
     
     <form method="post" class="registration-form" enctype="multipart/form-data">
       <label for="fName">First Name:</label>
-      <input type="text" id="fName" name="fName" placeholder="Enter your first name">
+      <input class="form-input" type="text" id="fName" name="fName" placeholder="Enter your first name">
 
       <label for="lName">Last Name:</label>
-      <input type="text" id="lName" name="lName" placeholder="Enter your last name">
+      <input class="form-input" type="text" id="lName" name="lName" placeholder="Enter your last name">
 
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Enter your email">
+      <input class="form-input" type="email" id="email" name="email" placeholder="Enter your email">
 
       <label for="password">Password:</label>
-      <input type="password" id="password" name="password" placeholder="Enter your password">
+      <input class="form-input" type="password" id="password" name="password" placeholder="Enter your password">
 
       <label for="passwordC">Confirm Password:</label>
-      <input type="password" id="passwordC" name="passwordC" placeholder="Confirm your password">
+      <input class="form-input" type="password" id="passwordC" name="passwordC" placeholder="Confirm your password">
 
       <input class="btn btn-outline-light btn-outline-light-submit" type="submit" name="submit" value="Register"> 
     </form>

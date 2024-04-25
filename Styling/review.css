@@ -1,0 +1,50 @@
+.reviewContainer {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+  }
+  
+  #stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .star {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .star::before {
+    content: "\2606";
+  }
+  
+  .star:hover::before {
+    content: "\2605";
+    color: orange;
+  }
+  
+  .star.active::before,
+  .star.active:hover::before {
+    content: "\2605";
+    color: orange;
+  }
+  
+  input[type="submit"].review {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"].review:hover {
+    background-color: darkorange;
+  }
+  

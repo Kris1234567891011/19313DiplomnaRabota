@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #63538f;
+  padding: 20px;
+  font-weight: bold;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-menu ul li {
+  margin-right: 20px;
+}
+
+.nav-menu ul li:last-child {
+  margin-right: 0;
+}
+
+.nav-menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+  background-color: #ffeafa;
+  padding: 50px;
+  margin: 35px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+/* Main content styles */
+.about {
+  background-color: #d467bb;
+  padding: 50px;
+  margin: 100px;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+
+.about p {
+  font-size: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+.about img {
+  max-width: 200px; /* Adjust the value as needed */
+  height: auto;
+  display: block; /* Ensures the image behaves as a block element */
+  margin: auto; /* Centers the image horizontally */
+}
+.partners {
+  background-color: #f9f9f9;
+  padding: 50px;
+  margin: 20px 0;
+}
+
+.partners h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.partners p {
+  font-size: 25px;
+}
+.partners .partners-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partners .partners-items img {
+  max-width: 100px;
+  height: auto;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer img {
+  max-width: 3%;
+  height: auto;
+}
+
+/* Scroll to top button */
+.scrollUp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+.scrollUp img {
+  width: 4px;
+  height: 4px;
+}

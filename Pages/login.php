@@ -50,7 +50,6 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
         $stmt = $connection->prepare("SELECT * FROM user WHERE email = ?"); 
         $stmt->execute([$email]); 
 	    $result = $stmt->fetch();
-        echo "zdr";
         
 
         if (password_verify($pass, $result['password']) ) {
@@ -58,12 +57,6 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
             echo "h ";
         
                 $_SESSION['user_id'] = $row['id'];
-
-                $_SESSION['email'] = $row['email'];
-
-                $_SESSION['firstName'] = $row['firstName'];
-
-                $_SESSION['lastName'] = $row['lastName'];
 
                 $_SESSION['admin'] = $row['admin'];
 
@@ -80,7 +73,7 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
 	$email = htmlspecialchars( $email, ENT_QUOTES );
 	$pass=htmlspecialchars($pass, ENT_QUOTES);
 } if($error){
-    echo "Wrong email or password";
+    echo "<center style='color:red;'>Wrong email or password</center>";
     }?>
 <!doctype html>
 <html lang="en">
@@ -95,7 +88,7 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="../Styling/styling.css">
         <link rel="stylesheet" type="text/css" href="../Styling/header.css">
-        <link rel="stylesheet" type="text/css" href="../Styling/register.css">
+        <link rel="stylesheet" type="text/css" href="../Styling/form.css">
 </head>
 <body>
     <header>
@@ -113,14 +106,19 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
     
     <form method="post" class="registration-form" enctype="multipart/form-data">
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Enter your email">
+      <input class="form-input" type="email" id="email" name="email" placeholder="Enter your email">
 
       <label for="password">Password:</label>
-      <input type="password" id="password" name="password" placeholder="Enter your password">
+      <input class="form-input" type="password" id="password" name="password" placeholder="Enter your password">
 
       <input class="btn btn-outline-light btn-outline-light-submit" type="submit" name="submit" value="Log in"> 
     </form>
   </div>
 </main>
+<footer style="position: fixed; bottom: 0rem; width: 100%; height: 2.5rem;">
+      <?php 
+      include "../components/footer.html" ;
+      ?>
+</footer>
 	</body>
 </html>

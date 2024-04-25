@@ -2,6 +2,7 @@ header {
     background-color: black;
     color: orange;
     border: 2px solid orange;
+    text-align: center;
 }
 /*nav {
     background-color:black;
@@ -9,6 +10,9 @@ header {
 }*/
 .btn-nav{
     font-size:1.25rem;
+}
+.btn-prof{
+    margin-bottom: 15px;
 }
 .navbar-text{
         font-size: 1.5rem;
@@ -22,16 +26,44 @@ header {
     color: white;
 }
 .search-input {
+    border: 2px solid orange;
+    background-color: black;
+    color: orange;
     padding: 10px;
     outline: none; /* Remove default outline */
-    width: 200px;
 }
 
-/* Style for the search button (optional) */
+.search-bar{
+    width: 250px;
+}
+
 .search-button {
     padding: 10px;
-    background-color: white; /* white background */
-    color: orange; /* orange text */
+    background-color: black; 
+    color: orange; 
     cursor: pointer;
-    width: 500px
+    width: 80px;
+    border: 2px solid orange;
+}
+
+footer {
+    background-color: black;
+    color: orange;
+    border-top: 2px solid orange;
+}
+
+@media (min-width: 768px) {
+    .search-bar{
+        width: 200px;
+    }
+}
+@media (min-width: 992px) {
+    .search-bar{
+        width: 400px;
+    }
+}
+@media (min-width: 1200px) {
+    .search-bar{
+        width: 550px;
+    }
 }

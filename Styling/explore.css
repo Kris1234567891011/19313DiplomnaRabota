@@ -1,0 +1,51 @@
+.explore-background-mobile{
+    position: relative;
+}
+.explore-container{
+    margin-top:2%;
+    margin-bottom: 2%;
+    width: 75%;
+    border: 2px orange solid;
+    position:relative;
+  }
+
+.explore-header{
+    text-align: center;
+    font-family:Impact;
+    color:orange;
+    margin-top: 3%;
+    margin-bottom: 10%;
+  }
+
+.explore-movie-picture{
+    position: relative;
+    height: 10rem;
+    text-align: center;
+  }
+  
+@media screen and (min-width: 768px) {
+    .explore-movie-picture{
+        height: 15rem;
+        padding-top:2%;
+      }
+
+      .explore-header{
+        margin-top: 2%;
+        margin-bottom: 0%;
+        font-weight: normal;
+        color:orange;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .explore-container{
+        border: 3px orange solid;
+        margin-bottom: 2%;
+        width: 55%;
+        background-color: black;
+     }
+    .explore-movie-picture{
+        height: 270px;
+        padding-top: 2%;
+     }
+}

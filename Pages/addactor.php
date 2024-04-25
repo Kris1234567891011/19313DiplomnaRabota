@@ -60,7 +60,7 @@ if ( isset( $_POST['submit'] ) ) {
 
         $actorInsert="INSERT INTO actor (firstName, lastName, picture_name) 
         VALUES ('$fName','$lName','$file_name')";
-		$result = mysqli_query($connection, $actorInsert);
+		    $result = mysqli_query($connection, $actorInsert);
 		
 		// изписва съобщение, че всичко е минало успешно
 		
@@ -88,7 +88,7 @@ if ( isset( $_POST['submit'] ) ) {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="../Styling/styling.css">
         <link rel="stylesheet" type="text/css" href="../Styling/header.css">
-        <link rel="stylesheet" type="text/css" href="../Styling/register.css">
+        <link rel="stylesheet" type="text/css" href="../Styling/form.css">
 </head>
 	  
   <body>
@@ -107,15 +107,18 @@ if ( isset( $_POST['submit'] ) ) {
   <li class="nav-item">
     <a class="nav-link" href="addfilm.php">Add a movie</a>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="addrole.php">Add a role</a>
+  </li>
 </ul>
 
   <form method="post" enctype="multipart/form-data">
 	<label>First Name:</label>
-    <input class="form-control" type="text" name="fName" value="<?= @$fName ?>">
+    <input class="form-input" type="text" name="fName" value="<?= @$fName ?>">
     <label>Last Name:</label>
-    <input class="form-control" type="text" name="lName" value="<?= @$lName ?>">
+    <input class="form-input" type="text" name="lName" value="<?= @$lName ?>">
 	<label>Picture:</label>
-	<input class="form-control" type="file" name="picture">
+	<input class="form-input" type="file" name="picture">
     <br><br>
 					
 	<div class="container-fluid text-center">

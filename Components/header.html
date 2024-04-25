@@ -1,20 +1,28 @@
-<nav class="navbar navbar-expand-lg">
+
+<nav class="navbar navbar-expand-md">
     <div class="container-fluid">
-      <a href="../Pages/index.php"><img src="../images/FilmHub_logo.png" alt="FilmHub Logo" style="height: 50px;" ></a>
-      <button class="navbar-toggler toggler-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a href="../Pages/index.php"><img src="../Images/FilmHub_logo.png" alt="FilmHub Logo" style="height: 50px;" ></a>
+      <button style="color:orange;"class="navbar-toggler toggler-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span>Menu</span>
       </button>
-      <div class="collapse navbar-collapse" id="navbar">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link navbar-text" href="../Pages/index.php">Home</a>
-          </li> 
+          <li class="nav-item"><a class="nav-link navbar-text" aria-current="page" href="../Pages/index.php">Home</a></li>
+          <li class="nav-item"><a class="nav-link navbar-text" aria-current="page" href="../Pages/explore.php">Explore</a></li>
         </ul>
-        <input class="navbar_nav search-bar me-2 mb-1 mb-lg-0 search-input search-button" type="text" placeholder="Search a title, actor, director.." id="search">
-        <?php if (isset($_SESSION['firstName']) && isset($_SESSION['lastName'])) { ?>
-          <ul class="navbar-nav me-1 mb-1 mb-lg-0 navbar-text">
+
+        <form class="me-auto" action="../Pages/search.php?searching=true" method="POST">
+          <input name="search" class="search-bar search-input" type="text" placeholder="Search a movie" value="">
+          <input class="search-button" type="submit" value="Search">
+          </form>
+        
+        <?php if (isset($_SESSION['user_id'])) { ?>
+          <ul class="navbar-nav mb-lg-0 navbar-text">
             <li class="nav-item">
-              <button type="button" class="btn btn-outline-light btn-nav" onclick="window.location.href = 'profile.php';">Profile</button>
+              <button style="margin-right: .3rem;" type="button" class="btn btn-outline-light btn-nav" onclick="window.location.href = 'profile.php';">Profile</button>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-outline-danger btn-nav" onclick="window.location.href = '../Scripts/logout.php';">Log out</button>
             </li>
           </ul>
           <?php

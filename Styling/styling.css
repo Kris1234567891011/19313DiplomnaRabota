@@ -8,14 +8,68 @@ body {
 .orange{
     color: orange;
 }
-.register-form-heading{
-    color:orange;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    width: 50%;
-    margin:auto;
-    margin-top: 10px;
+div.scroll {
+    margin: 4px, 4px;
+    padding: 4px;
+    width: 95%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
-.logo-form{
-    height: 75px;
+
+div.actors {
+    margin: 2px;
+    padding: 10px;
+    width: fit-content;
+    border: orange 2px solid;
     text-align: center;
+}
+
+.movie-text{
+    color:orange;
+}
+.movie-text:hover{
+    color:white;
+}
+.fluid-height {
+    height: 30rem; /* Set your desired height here */
+  }
+.fluid-height img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+.carousel-inner .carousel-item {
+    text-align: center;
+    height: 500px; /* Set a fixed height or adjust as needed */
+}
+
+.carousel-inner .carousel-item img {
+    max-height: 100%;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    border: 5px solid orange;
+}
+
+.feature, .top-rated {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.feature h1, .top-rated h1 {
+    color: orange;
+}
+
+
+.movie {
+    background-color: #333;
+    margin: 10px;
+    padding: 20px;
+    width: 30%; /* Adjust based on preference */
+    border: 1px solid orange;
 }

@@ -1,0 +1,18 @@
+.profile-info {
+    margin-bottom: 20px;
+}
+.reviews-container {
+    height: 300px; /* adjust based on your needs */
+    overflow-y: scroll;
+    border: 1px solid orange;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.review {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid orange;
+}
+.review:last-child {
+    border-bottom: none;
+}
